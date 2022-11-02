@@ -1,0 +1,182 @@
+/*==================================
+Variables
+====================================*/
+:root{
+--color-bg-black:#19222C;
+--color-red:#E74C3C;
+--color-orange:#E78F3C;
+--color--green:#2DAF4A;	
+--color-white:#FFFFFF;
+--color-grey:#8C9196;
+
+--text-color-primery:#FFFFFF;
+--text-color-secondary:#8C9196;
+--text-color-price-card:#E74C3C;
+--text-color-review:#2DAF4A;
+--text-color-news-block:#E78F3C;
+
+--button-color-red:#E74C3C;
+--button-color-orange:#E78F3C;
+
+
+
+
+
+
+--font-primary:'Montserrat', sans-serif;
+}
+
+/*==================================
+Common styles
+====================================*/
+
+body{
+	
+	background-color:var(--color-bg-black);
+	color: var(--text-color-primery);
+}
+
+
+
+
+
+
+
+
+
+
+/*==================================
+Layout
+====================================*/
+
+
+.page {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+
+}
+
+
+.page__header {
+}
+.page__main {
+}
+.page__footer {
+	margin-top: auto;
+}
+
+
+.container{
+	max-width: 1540px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 20px;
+
+}
+
+/*==================================
+Content
+====================================*/
+
+.section{
+	position:relative;
+
+}
+
+
+
+/*==================================
+Text-title
+====================================*/
+ 
+.text-title{
+	font-weight: 700;
+	margin: 0;
+}
+
+.text-title--large{
+	font-size: 54px;
+	line-height: 1;/* 100% от размера шрифта, если шрифт изменить , этот показатель тоже изменится*/	
+}
+
+.text-title--medium{
+	font-size: 36px;
+	line-height: 1;/* 100% от размера шрифта, если шрифт изменить , этот показатель тоже изменится*/
+}
+.text-title--small{
+	font-size: 18px;
+	line-height: 1;/* 100% от размера шрифта, если шрифт изменить , этот показатель тоже изменится*/	
+}
+.text-title--xsmall{
+	font-size: 14px;
+	line-height: 1;/* 100% от размера шрифта, если шрифт изменить , этот показатель тоже изменится*/	
+}
+
+/*==================================
+Text-body
+====================================*/
+
+.text-body{
+	font-weight: 500;
+	line-height: 140%;
+
+}
+
+.text-body--large{
+	font-size: 20px;
+}
+.text-body--medium{
+	font-size: 18px;
+}
+.text-body--small{
+	font-size: 14px;
+}
+
+/*==================================
+Text-caption
+====================================*/
+.text-caption{
+	font-size: 14px;
+}
+
+.text-caption--medium{
+   font-weight: 500;
+   line-height: 17px;
+}
+
+text-caption--semi{
+	font-weight: 600;
+	line-height: 140%;
+}
+
+/*==================================
+Page-header
+====================================*/
+.page-header{
+
+}
+
+.page-header__in{
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+/*==================================
+Page-menu
+====================================*/
+.page-menu{
+	display: flex;
+}
+
+.page-menu__item{
+
+}
+
+.page-menu__link{
+color: var(--font-primery);
+text-decoration: none;
+}
+
+
