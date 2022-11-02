@@ -9,7 +9,7 @@ Variables
 --color-white:#FFFFFF;
 --color-grey:#8C9196;
 
---text-color-primery:#FFFFFF;
+--text-color-primary:#FFFFFF;
 --text-color-secondary:#8C9196;
 --text-color-price-card:#E74C3C;
 --text-color-review:#2DAF4A;
@@ -33,7 +33,7 @@ Common styles
 body{
 	
 	background-color:var(--color-bg-black);
-	color: var(--text-color-primery);
+	color: var(--text-color-primary);
 }
 
 
@@ -68,12 +68,13 @@ Layout
 
 
 .container{
-	max-width: 1540px;
+	max-width: 1170px;
 	width: 100%;
 	margin: 0 auto;
 	padding: 0 20px;
 
 }
+
 
 /*==================================
 Content
@@ -171,12 +172,35 @@ Page-menu
 }
 
 .page-menu__item{
+	margin-left: 42px;
 
 }
 
 .page-menu__link{
-color: var(--font-primery);
-text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--text-color-primary);
+	text-decoration: none;
+	margin-right: 5px;
+	
+
+}
+
+	
+
+
+@media(hover:hover) {
+	.page-menu__link:hover{
+		background: rgba(255, 255, 255, 0.1);
+		border: 1px solid rgba(255, 255, 255, 0.1);
+		border-radius: 27.5px;
+		width: 91px;
+		height:32px;
+		margin-left:-16px;
+		
+	}
+
 }
 
 
